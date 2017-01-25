@@ -100,6 +100,13 @@ Model
 #### Description ####
 
 #### Example ####
+````
+    <MODEL>
+      <NAME>filter</NAME>
+      <URL>http://volute.g-vo.org/svn/trunk/projects/dm/vo-dml/models/sample/filter/Filter.vo-dml.xml</URL>
+      <IDENTIFIER>ivo://ivoa.org/dm/sample/Filter/1.9</IDENTIFIER>
+    </MODEL>
+````
 
 ObjectType {#sec:objecttype}
 ----------
