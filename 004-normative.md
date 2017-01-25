@@ -96,7 +96,7 @@ Model
 -----
 
 ### Model declaration ###
-
+All models used in a VO-DML annotation MUST be explicitly declared using the `<MODEL>` element, directly below the `<VODML>` root element. This element MUST contain at least the name of the model, which is to be used as prefix for the vodml-references, and a URL to the VO-DML/XML document. 
 #### Description ####
 
 #### Example ####
