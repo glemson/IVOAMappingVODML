@@ -92,21 +92,43 @@ When we say this section is NORMATIVE we mean that:
  is a set of rules that, if broken, are annotation errors. (**TODO** we
  better strive to make these comprehensive.)
 
+
+VODML root element
+------------------
+
+### Example ###
+```xml
+<VODML>
+    <MODEL> ...
+    <GLOBALS> ...
+    <TEMPLATES> ...
+```
+
 Model
 -----
 
 ### Model declaration ###
 All models used in a VO-DML annotation MUST be explicitly declared using the `<MODEL>` element, directly below the `<VODML>` root element. This element MUST contain at least the name of the model, which is to be used as prefix for the vodml-references, and a URL to the VO-DML/XML document. 
+
 #### Description ####
 
 #### Example ####
-````
+```xml
     <MODEL>
       <NAME>filter</NAME>
       <URL>http://volute.g-vo.org/svn/trunk/projects/dm/vo-dml/models/sample/filter/Filter.vo-dml.xml</URL>
       <IDENTIFIER>ivo://ivoa.org/dm/sample/Filter/1.9</IDENTIFIER>
     </MODEL>
-````
+```
+
+Globals
+-------
+
+
+Templates
+---------
+
+
 
 ObjectType {#sec:objecttype}
 ----------
